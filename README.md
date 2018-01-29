@@ -24,10 +24,14 @@ $ repo sync
 or
 $ repo sync -c -f -q -j256 --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
 
-Step 3 : Setup Lunch And Brunch Command
+Step 3 : Clone Device Tree And Vendor Tree
+$ git clone https://github.com/Attached2Android/Android-LAVA-IRISX8-Device-Tree-MT6592 -b Nougat device/LAVA/IRISX8
+$ git clone https://github.com/Attached2Android/Android-LAVA-IRISX8-Vendor-Tree-MT6592 -b Nougat vendor/LAVA/IRISX8
+
+Step 4 : Setup Lunch And Brunch Command
 $ . build/envsetup.sh
 
-Step 4 : Start Compiling
+Step 5 : Start Compiling
 $ lunch lineage_IRISX8-userdebug
 $ brunch IRISX8
 
