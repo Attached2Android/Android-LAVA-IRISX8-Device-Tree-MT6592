@@ -2,7 +2,7 @@
 
  cd ../../../..
  cd system/core
- patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_android_system_core_MTK.patch
+ patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_system_core_MTK.patch
  
  cd ..
  cd bt
