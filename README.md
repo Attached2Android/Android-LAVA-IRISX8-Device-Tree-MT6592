@@ -17,18 +17,18 @@ Front Camera  | 3 MP
 How To Compile Lineage OS V14.1 For LAVA IRISX8
 
 Step 1 : Initialize Rom Source
-repo init -u git://github.com/TestMT6572/android.git -b cm-14.1
+$ repo init -u git://github.com/TestMT6572/android.git -b cm-14.1
 
 Step 2 : Sync Up, Source
-repo sync
+$ repo sync
 or
-repo sync -c -f -q -j256 --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
+$ repo sync -c -f -q -j256 --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
 
 Step 3 : Setup Lunch And Brunch Command
-. build/envsetup.sh
+$ . build/envsetup.sh
 
 Step 4 : Start Compiling
-lunch lineage_IRISX8-userdebug
-brunch IRISX8
+$ lunch lineage_IRISX8-userdebug
+$ brunch IRISX8
 
 https://attached2android.blogspot.in
