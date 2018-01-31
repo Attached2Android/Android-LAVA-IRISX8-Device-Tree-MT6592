@@ -30,10 +30,10 @@
  patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_frameworks_base.patch
  echo android_frameworks_base Done
  
- #cd ..
- #cd native
- #patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_frameworks_native_MTK.patch
- echo android_frameworks_native Ignored
+ cd ..
+ cd native
+ patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_frameworks_native_MTK.patch
+ echo android_frameworks_native Done
  
  cd ..
  cd opt/telephony
