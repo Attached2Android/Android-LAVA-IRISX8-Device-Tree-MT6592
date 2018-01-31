@@ -2,7 +2,7 @@
 
  cd ../../../..
  cd system/core
- patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_android_system_core_MTK.patch
+ patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_system_core_MTK.patch
  
  cd ..
  cd bt
@@ -24,9 +24,9 @@
  cd base
  patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_frameworks_base.patch
  
- cd ..
- cd native
- patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_frameworks_native_MTK.patch
+ #cd ..
+ #cd native
+ #patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_frameworks_native_MTK.patch
  
  cd ..
  cd opt/telephony
