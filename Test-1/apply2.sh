@@ -24,9 +24,9 @@
  cd base
  patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_frameworks_base.patch
  
- cd ..
- cd native
- patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_frameworks_native_MTK.patch
+ #cd ..
+ #cd native
+ #patch -p1 < ../../device/LAVA/IRISX8/Test-1/android_frameworks_native_MTK.patch
  
  cd ..
  cd opt/telephony
