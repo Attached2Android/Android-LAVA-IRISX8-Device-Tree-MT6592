@@ -68,10 +68,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/enableswap.sh:root/enableswap.sh \
     $(DEVICE_PATH)/rootdir/fstab.mt6592:root/fstab.mt6592 \
     $(DEVICE_PATH)/rootdir/init.modem.rc:root/init.modem.rc \
+    $(LOCAL_PATH)/rootdir/init.recovery.mt6592.rc:root/init.recovery.mt6592.rc \
     $(DEVICE_PATH)/rootdir/init.mt6592.rc:root/init.mt6592.rc \
     $(DEVICE_PATH)/rootdir/init.mt6592.usb.rc:root/init.mt6592.usb.rc \
     $(DEVICE_PATH)/rootdir/ueventd.mt6592.rc:root/ueventd.mt6592.rc \
-	$(DEVICE_PATH)/rootdir/ueventd.rc:root/ueventd.rc \
     $(DEVICE_PATH)/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab \
     $(DEVICE_PATH)/rootdir/sbin/poweroff.sh:recovery/root/sbin/poweroff.sh \
     $(DEVICE_PATH)/rootdir/sbin/rebootrecovery.sh:recovery/root/sbin/rebootrecovery.sh \
