@@ -8,7 +8,7 @@ VENDOR_PATH := vendor/LAVA/IRISX8
 PRODUCT_RELEASE_NAME := IRISX8
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
