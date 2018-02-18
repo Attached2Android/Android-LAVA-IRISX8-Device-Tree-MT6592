@@ -8,7 +8,7 @@ VENDOR_PATH := vendor/LAVA/IRISX8
 PRODUCT_RELEASE_NAME := IRISX8
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
@@ -19,7 +19,7 @@ TARGET_SCREEN_WIDTH := 720
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := IRISX8
-PRODUCT_NAME := lineage_IRISX8
+PRODUCT_NAME := aosp_IRISX8
 PRODUCT_BRAND := IRIS
 PRODUCT_MODEL := IRISX8
 PRODUCT_MANUFACTURER := LAVA
