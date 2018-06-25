@@ -1,7 +1,10 @@
  #!/bin/bash
  cd ../../../..
+ cd packages/apps/Settings
+ patch -p1 -b < ../../../device/LAVA/IRISX8/Patch/dev.patch
+ git clean -f -d
  cd system/core
- patch -p1 < ../../device/LAVA/IRISX8/patches/core.patch
+ patch -p1 < ../../../device/LAVA/IRISX8/patches/core.patch
  cd ../..
  cd system*/bt
  patch -p1 < ../../device/LAVA/IRISX8/patches/bt.patch
