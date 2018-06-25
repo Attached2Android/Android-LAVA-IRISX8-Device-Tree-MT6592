@@ -6,7 +6,7 @@
  git clean -f -d
  
  cd ../../../system/core
- patch -p1 < ../../../device/LAVA/IRISX8/patches/core.patch
+ patch -p1 < ../../device/LAVA/IRISX8/patches/core.patch
  
  cd ../../system*/bt
  patch -p1 < ../../device/LAVA/IRISX8/patches/bt.patch
