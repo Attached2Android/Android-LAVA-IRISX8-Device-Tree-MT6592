@@ -2,7 +2,7 @@
  cd ../../../..
  
  cd packages/apps/Settings
- patch -p1 -b < ../../../device/LAVA/IRISX8/Patch/dev.patch
+ patch -p1 -b < ../../../device/LAVA/IRISX8/patches/dev.patch
  git clean -f -d
  
  cd ../../../system/core
