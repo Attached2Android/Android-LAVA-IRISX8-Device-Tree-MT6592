@@ -144,10 +144,6 @@ PRODUCT_PACKAGES += \
     libfmcust \
     libmtkplayer
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # YGPS
 PRODUCT_PACKAGES+=\
     YGPS
